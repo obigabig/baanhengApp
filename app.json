@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "baanhengApp",
+    "slug": "baanhengApp",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "extra": {
+      "server": {
+        "rootUrl" : "https://baanheng-dev.herokuapp.com/api/"
+      },
+      "firebase": {
+        "apiKey": "AIzaSyDQAmGCoZgz9sEPwGr-D4YgkJFZNeFbdPM",
+        "authDomain": "baanheng-dev.firebaseapp.com",
+        "databaseURL": "https://baanheng-dev.firebaseio.com",
+        "projectId": "baanheng-dev",
+        "storageBucket": "baanheng-dev.appspot.com",
+        "messagingSenderId": "1086485022003"
+      },
+      "facebook": {
+        "appId": "398496004303736"
+      }
+    }
+  }
+}
